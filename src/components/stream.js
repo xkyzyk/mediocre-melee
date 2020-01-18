@@ -6,7 +6,7 @@ const Stream = () => {
     <div className="containerLive">
       <ReactTwitchEmbedVideo
         theme="dark"
-        height="940"
+        height="900"
         width="100%"
         channel="admiralbulldog"
       />

@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import fox from "./fox-r.png";
 
-const topNav = () => {
+const TopNav = () => {
   return (
     <Navbar
       style={{ background: "#18181B" }}
@@ -33,4 +33,4 @@ const topNav = () => {
   );
 };
 
-export default topNav;
+export default TopNav;

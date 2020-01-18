@@ -1,7 +1,7 @@
 import React from "react";
-import Home from "./components/home";
-import Nav from "./components/topNav";
-import Stream from "./components/stream";
+import Home from "./components/Home";
+import Nav from "./components/TopNav";
+import Stream from "./components/Stream";
 
 function App() {
   return (
