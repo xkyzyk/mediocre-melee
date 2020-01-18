@@ -8,7 +8,7 @@ import Stream from "./components/Stream";
 
 function App() {
   return (
-    <div style={{ background: "#18181B" }}>
+    <div>
       <Router>
         <Nav />
         <Stream />

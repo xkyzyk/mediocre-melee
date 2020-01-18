@@ -3,21 +3,28 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { LinkContainer } from "react-router-bootstrap";
 import fox from "./fox-r.png";
+import shines from "./shines.png";
 
 const TopNav = () => {
   return (
     <Navbar style={{ background: "#18181B" }} variant="dark" expand="md">
       <Navbar.Brand>
         <img
+          alt=""
           src={fox}
-          width="50"
-          height="50"
+          width="60"
+          height="40"
           className="d-inline-block align-top"
-          alt="fox"
-        />
+        />{" "}
         mediocre melee
       </Navbar.Brand>
-
+      <img
+        alt=""
+        src={shines}
+        width="200"
+        height="40"
+        className="d-inline-block align-top"
+      />{" "}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="justify-content-end">
