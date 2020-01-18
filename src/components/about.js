@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="container">
+    <div
+      className="container-fluid text-light"
+      style={{ background: "#18181B" }}
+    >
       <h4>About</h4>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
